@@ -1,0 +1,48 @@
+/* HEADER */
+/* Navbar */
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.navbar{
+    background-color: whitesmoke !important;
+    border: none !important;
+    border-radius: 0px 0px 11px 11px !important;
+}
+.logo {
+  max-width: 25px;
+}
+.navbar-nav {
+  align-items: center;
+}
+/* Efeito de linha animada nos links */
+.nav-link {
+    position: relative;
+    display: inline-block;
+    padding: 0.3rem 0.7rem;
+    color: black !important;
+    font-size: var(--fs-4);
+    font-weight: var(--fw-400);
+    opacity: 100% !important;
+  }
+  
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: currentColor;
+    transition: all 0.3s ease-in-out;
+    transform: translateX(-50%);
+  }
+  
+  .nav-link:hover::after {
+    width: 65%;
+    color: 90%;
+  }
+  
+  /* Ajuste para o link ativo */
+  .nav-link.active::after {
+    width: 65%;
+  }
