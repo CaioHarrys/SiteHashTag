@@ -2,11 +2,11 @@
 
 <img src="./Assets/Images/ReadMe img/site-img.png" >
 
-> Modelo de MVP Template Model.
-> MVP que será utilizado como um template de web-site.
+> Modelo do site antigo da Hashtag Treinamentos.
+> Modelo criado para pratica de Front-End.
 ### Ajustes e melhorias
 
-Projeto Pronto ✅🥳
+Projeto em Desenvolvimento ✅
 
 
 ## 💻 Pré-requisitos
@@ -17,18 +17,14 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 * Você tem uma máquina `<Windows / Linux / Mac>`..
 * Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
 
-## 🚀 Instalando MVP Template Model
+## 🚀 Instalando 
 
-Para instalar a MVP Template Model, siga estas etapas:
+Para instalar o Modelo, siga estas etapas:
 
 Faça o Download dos arquivos e os abra, ou clone o projeto pelo github e o abra no seu editor de código.
 
-## ☕ Usando o MVP Template Model
+## ☕ Usando o Modelo
 
-Para usar MVP Template Model, siga estas etapas:
+Para usar o Modelo, siga estas etapas:
 
-- Abra e execute o arquivo index dentro da pasta, utiliazando o navegador da sua maquina.
-
-Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
-
-
+Abra e execute o arquivo index dentro da pasta, utiliazando o navegador da sua maquina.
