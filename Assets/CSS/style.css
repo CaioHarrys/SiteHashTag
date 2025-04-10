@@ -1,48 +1,82 @@
 /* HEADER */
 /* Navbar */
-.navbar-collapse{
-    justify-content: flex-end;
+.navbar-collapse {
+  justify-content: flex-end;
 }
-.navbar{
-    background-color: whitesmoke !important;
-    border: none !important;
-    border-radius: 0px 0px 11px 11px !important;
+.navbar {
+  background-color: whitesmoke !important;
+  border: none !important;
+  border-radius: 0px 0px 11px 11px !important;
 }
 .logo {
-  max-width: 25px;
+  max-width: 44%;
+  padding: 0.8rem 0rem 0.8rem 0.8rem;
+}
+.logo-left {
+  max-width: 50%;
+  display: flex;
+}
+.hamburger-toggle-1 {
+  display: flex;
+  align-self: baseline;
+  max-width: 50%;
+}
+.navbar-toggler {
+  border: none !important;
+  background-color: transparent !important;
+  padding: 2px;
 }
 .navbar-nav {
   align-items: center;
 }
 /* Efeito de linha animada nos links */
 .nav-link {
-    position: relative;
+  position: relative;
+  display: inline-block;
+  padding: 0.3rem 0.7rem;
+  color: black !important;
+  font-size: var(--fs-4);
+  font-weight: var(--fw-400);
+  opacity: 100% !important;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: currentColor;
+  transition: all 0.3s ease-in-out;
+  transform: translateX(-50%);
+}
+
+.nav-link:hover::after {
+  width: 65%;
+  color: 90%;
+}
+
+/* Ajuste para o link ativo */
+.nav-link.active::after {
+  width: 65%;
+}
+/* RESPONSIVIDADE LOGO AO MEIO */
+@media (max-width: 992px) {
+  .navbar-toggler-icon {
     display: inline-block;
-    padding: 0.3rem 0.7rem;
-    color: black !important;
-    font-size: var(--fs-4);
-    font-weight: var(--fw-400);
-    opacity: 100% !important;
+    width: 0.9em !important;
+    height: 1em !important;
+    vertical-align: middle;
+    background-image: var(--bs-navbar-toggler-icon-bg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border: none !important;
   }
-  
-  .nav-link::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 0;
-    height: 2px;
-    background-color: currentColor;
-    transition: all 0.3s ease-in-out;
-    transform: translateX(-50%);
+  .navbar-toggler {
+    border: none !important;
+    background-color: transparent !important;
+    padding: 0.2em 0.6em !important;
   }
-  
-  .nav-link:hover::after {
-    width: 65%;
-    color: 90%;
-  }
-  
-  /* Ajuste para o link ativo */
-  .nav-link.active::after {
-    width: 65%;
-  }
+}
