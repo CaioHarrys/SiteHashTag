@@ -1,6 +1,6 @@
 # MVP Template Model
 
-<img src="./Assets/Imgs/Admin-db.png" alt="exemplo imagem">
+<img src="../Hashtag Site/Assets/Images/ReadMe img/site-img.png" alt="exemplo imagem">
 
 > Modelo de MVP Template Model.
 > MVP que será utilizado como um template de web-site.
