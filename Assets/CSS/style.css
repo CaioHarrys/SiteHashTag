@@ -212,7 +212,7 @@ main {
 
 .container-hero {
   display: flex;
-  gap: 1.12rem;
+  gap: 1rem;
   align-items: center;
 }
 .container {
@@ -225,19 +225,21 @@ main {
   flex-flow: column;
   gap: var(--gap-lg-2);
   width: 50%;
+  max-width: 50%;
 }
 .hero-button {
   display: flex;
   gap: var(--gap-md-1);
 }
 .hero-botao {
+  width: 100%;
   background-image: linear-gradient(180deg, #ff645e, #ff9253);
 }
 .botao {
-  color: var(--p-color);
+  color: white;
   display: inline-block;
   text-align: center;
-  font-size: 12px;
+  font-size: 19px;
   font-weight: var(--fw-700);
   text-decoration: none;
   border-radius: var(--br-lg-3);
@@ -249,6 +251,7 @@ main {
   transition-property: border;
 }
 .iframe-video {
+  width: 100% !important;
   aspect-ratio: 16 / 9;
   border-radius: 2.5rem;
   flex: 5;
@@ -258,35 +261,10 @@ main {
   justify-content: center;
   align-items: center;
   width: 50%;
+  max-width: 50%;
 }
 h1 {
   font-size: 17px;
-}
-@media only screen and (max-width: 768px) {
-  body {
-    font-size: 14px;
-  }
-  .secao {
-    padding: 1.6rem 0rem;
-  }
-  .container-hero {
-    flex-direction: column !important;
-  }
-  .hero-coluna {
-    width: 100%;
-    text-align: center;
-  }
-  .hero-button {
-    text-align: center;
-    justify-content: center;
-  }
-  .iframe-video {
-    display: flex;
-    max-width: 300px;
-    aspect-ratio: 16 / 9;
-    border-radius: 2.5rem;
-    flex: 5;
-  }
 }
 
 /* Desktop - 1025px em diante */
@@ -303,26 +281,35 @@ h1 {
     font-weight: var(--fw-400);
     opacity: 100% !important;
   }
+  .hero-coluna {
+    width: 100%;
+    max-width: 100%;
+    gap: 2em !important;
+  }
 }
 @media only screen and (max-width: 990px) {
   body {
     font-size: 14px;
   }
-  .container{
+  .hero-coluna {
+    width: 100%;
+    max-width: 100%;
+  }
+  .iframe-cs {
+    width: 100%;
+    max-width: 80%;
+  }
+  .container {
     flex-direction: column;
+    width: 100%;
   }
   .container-hero {
-    
-  }
-  }
-  .hero-coluna{
-    width: 100%;
-    justify-content: center;
-  }
-  .iframe-cs{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+    flex-direction: column;
+    gap: 0.5rem;
   }
 }
+/* @media (min-width)
+.hero-coluna {
+  width: 100%;
+  justify-content: center;
+} */
