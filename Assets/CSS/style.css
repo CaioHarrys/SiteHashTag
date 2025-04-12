@@ -371,3 +371,17 @@ h1 {
 .col-treina{
     width: 50% !important;
 }
+.card-title{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: var(--fw-700);
+    color: var(--grey-1);
+    background-color: var(--blue-4);
+    color: var(--grey-5) !important;
+    padding: 0.1em !important;
+    border-radius: 0.1em;
+}
+h5{
+    margin: 0;
+    padding:0;
+}
