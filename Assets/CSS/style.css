@@ -313,3 +313,61 @@ h1 {
   width: 100%;
   justify-content: center;
 } */
+
+/* Cards Treinamentos */
+.container-treinamentos {
+  display: flex;
+  justify-content: center  ;
+  align-items: center;
+
+  width: 100%;
+}
+.left-coluna-treinamentos {
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+}
+.right-coluna-treinamentos {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.img-computer {
+  max-width: 100%;
+  height: 100%;j
+  ustify-content: flex-end;
+}
+.card-title {
+  max-height: 100%;
+}
+.secao-treinamentos {
+  background-image: url(../Images/bg-img/b-banner-2.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title-train {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  gap: 1rem;
+  
+}
+.column-h2 {
+  width: 100%;
+  justify-content: flex-start;
+}
+.cards-way {
+  justify-content: space-evenly;
+}
+.img-conteudos {
+  max-width: 47.8rem;
+  flex: 45;
+  position: relative;
+  left: 2rem;
+  z-index: 1;
+}
+.col-treina{
+    width: 50% !important;
+}
