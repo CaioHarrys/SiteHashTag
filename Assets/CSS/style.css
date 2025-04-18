@@ -317,7 +317,7 @@ h1 {
 /* Cards Treinamentos */
 .container-treinamentos {
   display: flex;
-  justify-content: center  ;
+  justify-content: center;
   align-items: center;
 
   width: 100%;
@@ -334,8 +334,8 @@ h1 {
 }
 .img-computer {
   max-width: 100%;
-  height: 100%;j
-  ustify-content: flex-end;
+  height: 100%;
+  justify-content: flex-end;
 }
 .card-title {
   max-height: 100%;
@@ -352,7 +352,6 @@ h1 {
   align-items: center;
   flex-direction: row;
   gap: 1rem;
-  
 }
 .column-h2 {
   width: 100%;
@@ -368,20 +367,137 @@ h1 {
   left: 2rem;
   z-index: 1;
 }
-.col-treina{
-    width: 50% !important;
+.col-treina {
+  width: 50% !important;
 }
-.card-title{
-    text-align: center;
-    font-size: 1.3rem;
-    font-weight: var(--fw-700);
-    color: var(--grey-1);
-    background-color: var(--blue-4);
-    color: var(--grey-5) !important;
-    padding: 0.1em !important;
-    border-radius: 0.1em;
+.card-title {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: var(--fw-700);
+  color: var(--grey-1);
+  background-color: var(--blue-4);
+  color: var(--grey-5) !important;
+  padding: 0.1em !important;
+  border-radius: 0.1em;
 }
-h5{
-    margin: 0;
-    padding:0;
+h5 {
+  margin: 0;
+  padding: 0;
+}
+.sec-hero-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.left-content {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  align-self: baseline;
+}
+.content-img {
+  object-fit: contain;
+  max-height: 450px;
+}
+.right-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.top-content {
+  display: flex;
+}
+.top-content-img {
+  object-fit: contain;
+  max-height: 25px;
+}
+.gratuitos {
+  color: #7a40be;
+  font-weight: 600;
+}
+.bottom-content {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  justify-content: center;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border: none;
+  padding: 1.4rem;
+  gap: 1em;
+  box-shadow: inset 0 0 0.8rem 0.1rem rgba(0, 0, 0, 0.15);
+  border-radius: 2.5rem;
+  width: 50%;
+  max-width: 50%;
+
+}
+.circulo-logo-cd {
+  display: inline-block;
+  background-color: #e7e7e7;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0.4rem 0.2rem rgba(0, 0, 0, 0.15);
+  padding: 0.9em;
+  width: 3.4rem;
+  height: 3.4rem;
+}
+.btn-cd-img {
+  width: 100%;
+}
+.social-btn {
+  display: flex;
+  flex-direction: row;
+  color: rgb(110, 103, 103);
+  text-decoration: none;
+  border: none;
+  border-radius: 20px;
+  background-color: whitesmoke;
+  padding-left: 1em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  gap: 0.5em;
+  box-shadow: inset 0 0 0.4rem 0.2rem rgba(0, 0, 0, 0.15);
+}
+.social-icons-img {
+  object-fit: contain;
+  max-width: 18px;
+}
+.card-content-h3 {
+  margin: 0px !important;
+  padding: 0px !important;
+  font-weight: var(--fw-300);
+  font-size: 1.4em;
+}
+.card-title-h1 {
+  margin: 0px !important;
+  padding: 0px !important;
+  font-size: 1.7rem !important;
+  font-weight: bold;
+  text-align: center;
+}
+.card-content-title {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  display: inline-block;
+  padding: 0.42rem 1.6rem;
+  color: white;
+  border-radius: 1rem;
+
+  background-image: linear-gradient(90deg, #aa56e6, #6d42b9);
+  transform: rotate(-3deg) translate(-50%, -50%);
+  box-shadow: 0 0.21rem 0.4rem rgba(0, 0, 0, 0.15);
+}
+.content-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4em;
+}
+.content-media-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
 }
